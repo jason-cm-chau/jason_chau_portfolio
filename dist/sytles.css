@@ -9,7 +9,7 @@
 #personal-logo{
     height: 50px;
     width: 50px;
-    filter: invert(1);
+    /* filter: invert(1); */
 }
 
 html{
@@ -31,6 +31,7 @@ p{
 a{
     text-decoration: none;
 }
+
 
 input, textarea{
     width: 100%;
@@ -84,8 +85,9 @@ button:hover{
     transform: scale(0.8);
 }
 
-.orange{
-    color: #f06449;
+.blue{
+    /* color: #f06449; */
+    color: #129494;
 }
 
 .link__hover-effect{
@@ -115,7 +117,8 @@ button:hover{
 }
 
 .logo{
-    transform: scale(1.5);
+    transform: scale(2);
+    filter: contrast(2);
 }
 
 nav,
@@ -187,7 +190,7 @@ header{
 }
 
 .social__link{
-    background-color: #f06449;
+    background-color: #734df2;
     color: white;
     padding: 6px;
     width: 32px;
@@ -548,7 +551,7 @@ footer{
 }
 
 .footer__logo--img{
-    width: 70px;
+    width: 10rem;
 }
 
 .footer__social--list{
