@@ -2,6 +2,12 @@ let isModalOpen = false;
 let contrastToggle = false;
 const scaleFactor = 1/20;
 
+if ($_SERVER['HTTPS'] != "on") {
+    $url = "https://". $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+    header("Location: $url");
+    exit;
+}
+
 function moveBackground(event){
     const shapes= document.querySelectorAll(".shape");
     const x =event.clientX * scaleFactor;

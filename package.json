@@ -1,0 +1,23 @@
+{
+  "name": "jason-cm-chau.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jason-cm-chau/jason_chau_portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jason-cm-chau/jason_chau_portfolio/issues"
+  },
+  "homepage": "https://jason-cm-chau.github.io/jason_chau_portfolio",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
